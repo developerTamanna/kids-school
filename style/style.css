@@ -603,14 +603,14 @@ margin-left: 20px;
             border: none;
             text-align: center;
             background: rgb(149, 178, 38);
-            margin-left: 3px;
+            margin-left: 1px;
             padding: 5px;
             position: relative;
             top: -20px;
-            right: -20px;
+            right: -5px;
             font-family: Raleway;
-            font-size: .90rem;
-            font-weight: 500;
+            font-size: .50rem;
+            font-weight: 300;
             
      } 
      .card2-btn{
@@ -618,28 +618,28 @@ margin-left: 20px;
         background: #5D58F0;
         color: #fff;
         border: none;
-        margin-left: 3px;
+        margin-left: 1px;
         padding: 5px;
         position: relative;
         top: -20px;
-        right: -20px;
+        right: -5px;
         font-family: Raleway;
-        font-size: .90rem;
-        font-weight: 500; 
+        font-size: .50rem;
+        font-weight: 300; 
      } 
      .card3-btn{
         border-radius: 47.93px;
         background: #011058;
         color: #fff;
         border: none;
-        margin-left: 3px;
+        margin-left: 1px;
         padding: 5px;
         position: relative;
         top: -20px;
-        right: -20px;
+        right: -5px;
         font-family: Raleway;
-        font-size: .90rem;
-        font-weight: 500;
+        font-size: .50rem;
+        font-weight: 300;
      } 
      .card4-btn{
         border-radius: 47.93px;
@@ -650,10 +650,10 @@ margin-left: 20px;
         padding: 5px;
         position: relative;
         top: -20px;
-        right: -20px;
+        right: -5px;
         font-family: Raleway;
-        font-size: .90rem;
-        font-weight: 500;
+        font-size: .50rem;
+        font-weight: 300;
      } 
      .view-btn{
         padding: 12px 50px;
