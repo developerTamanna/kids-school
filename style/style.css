@@ -162,6 +162,7 @@ margin-top: 24px;
 main{
     max-width: 1536px;
     width: 100%;
+    margin: 0px auto;
 
 }
 
@@ -169,6 +170,7 @@ main{
 .curriculum{
     max-width: 1536px;
     width: 100%;
+    margin: 60px auto;
     text-align: center;
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
@@ -288,11 +290,12 @@ text-decoration: none;
 
 .stories{
     max-width: 1536px;
+    margin: 80px auto;
     width: 100%;
     background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     /* background-repeat: no-repeat;
     background-size: cover; */
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .stories-title{
  color: rgb(0, 0, 0);
@@ -518,6 +521,34 @@ margin-left: 20px;
     background: rgb(17, 17, 17); 
 }
 
+
+
+
+
+
+/* start footer section */
+.footer{
+    max-width: 1536px;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width: 576px) {
     .logo_container{
         width: 100%;
@@ -562,7 +593,7 @@ margin-left: 20px;
         font-size: 1rem;
     }
     .banner-btn{
-        margin-left: 120px;
+        margin-left: 110px;
         margin-top: 30px;
     }
     .curriculum{
@@ -665,7 +696,7 @@ margin-left: 20px;
         border-radius: 12px;
         color: white;
         /* Black */
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 50px;
         background: rgb(17, 17, 17); 
     }
