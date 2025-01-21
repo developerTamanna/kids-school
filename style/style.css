@@ -527,23 +527,104 @@ margin-left: 20px;
 
 /* start footer section */
 .footer{
+    padding: 60px 0px 60px 0px;
     max-width: 1536px;
     width: 100%;
-    background-color: aqua;
+    background: rgb(1, 172, 253);
 }
 
 
+.footer-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+#kids{
+    /* color: #fff; */
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
 
+}
+    
+.f-description{
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 30px;
+}
 
+.part-2{
+    display: flex;
+    flex-direction: column;
+}
+.part-2-title{
+    margin-left: -60px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0%;
 
+}
+.part-2 ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.part-2 ul li a{
+    text-decoration: none;
+    
+}
 
+.part3{
+    display: flex;
+    flex-direction: column;
+}
+.part3-ti{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+   
+    letter-spacing: 0%;
 
+}
+.iconic{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
 
+.ul-list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.ul-list ul li a{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
 
-
-
-
+}
 
 
 
