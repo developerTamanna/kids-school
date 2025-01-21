@@ -357,7 +357,7 @@ font-size: 0.90rem;
 font-weight: 500;
 line-height: 28.76px;
 letter-spacing: 0%;
-margin-top: 51px;
+margin-top: 40px;
 margin-left: 40px;
 }
 
@@ -540,7 +540,7 @@ margin-left: 20px;
     flex-direction: row;
     justify-content: space-between;
 }
-.logo{
+.footer-logo{
     display: flex;
     justify-content: flex-start;
     gap: 20px;
@@ -549,10 +549,10 @@ margin-left: 20px;
     /* color: #fff; */
 color: rgb(255, 255, 255);
 font-family: Quicksand;
-font-size: 42.14px;
+font-size: 2.8rem;
 font-weight: 700;
 line-height: 39.51px;
-letter-spacing: 0%;
+
 
 }
     
@@ -567,12 +567,12 @@ text-align: left;
 margin-top: 30px;
 }
 
-.part-2{
+.footer-part-2{
     display: flex;
     flex-direction: column;
 }
 .part-2-title{
-    margin-left: -60px;
+/* margin-left: 60px; */
 color: rgb(255, 255, 255);
 font-family: Quicksand;
 font-size: 24px;
@@ -580,11 +580,11 @@ font-weight: 700;
 letter-spacing: 0%;
 
 }
-.part-2 ul{
+.footer-part-2 ul{
     list-style: none;
     margin-top: 20px;
 }
-.part-2 ul li a{
+.footer-part-2 ul li a{
     text-decoration: none;
     
 }
@@ -682,7 +682,8 @@ letter-spacing: 0%;
         background-image: url(../assets/bg.png);
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 30px; 
+        margin-top: 30px;
+        padding: 20px 0px; 
     }
     .curriculum-container{
         grid-template-columns: repeat(1, 1fr);
@@ -704,7 +705,9 @@ letter-spacing: 0%;
      .left-site{
         display: none;
      } 
-     
+     .stories{
+        padding-top: 20px;
+     }
      .s-card-1{
         max-width: 100%;
         box-sizing: border-box;
@@ -789,5 +792,8 @@ letter-spacing: 0%;
         margin-top: 10px;
         margin-left: 20px;
         
+         }
+         .footer-container{
+            flex-direction: column;
          }
 }
