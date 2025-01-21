@@ -347,7 +347,7 @@ font-weight: 700;
 line-height: 38.35px;
 letter-spacing: 0%;
 margin-left: 40px;
-margin-top: 38px;
+margin-top: 25px;
 
 }
 .left-description{
@@ -358,7 +358,8 @@ font-weight: 500;
 line-height: 28.76px;
 letter-spacing: 0%;
 margin-top: 40px;
-margin-left: 40px;
+margin-left: 30px;
+padding: 20px;
 }
 
 
@@ -598,7 +599,6 @@ letter-spacing: 0%;
     font-family: Quicksand;
     font-size: 26px;
     font-weight: 700;
-   
     letter-spacing: 0%;
 
 }
@@ -795,5 +795,15 @@ letter-spacing: 0%;
          }
          .footer-container{
             flex-direction: column;
+         }
+
+         .f-description{
+            margin-top: 40px;
+         }
+         .part-2-title{
+            margin-top: 40px;
+         }
+         .part3-ti{
+            margin-top: 40px;
          }
 }
