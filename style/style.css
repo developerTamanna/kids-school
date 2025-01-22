@@ -257,6 +257,7 @@ text-decoration: none;
 
 .active-1{
     color: #64C8FF;
+    
 }
 
 .active-2{
@@ -282,6 +283,9 @@ text-decoration: none;
     background-color: #F0AA00;
     color: #ffffff;
     border: none;
+  }
+  .curriculum-btn:hover{
+    background-color: green;
   }
 
 
@@ -338,6 +342,11 @@ background: rgb(255, 255, 255);
     top: -20px;
     right: -40px;
        
+}
+.stories-btn:hover{
+    background-color: green;
+    color: #fff;
+    font-style: italic;
 }
 .left-title{
 color: rgb(0, 0, 0);
@@ -400,6 +409,7 @@ padding: 20px;
     .card1-btn:hover{
         background-color: rgb(255, 242, 0);
         color: #000003;
+        font-style: italic;
     }
        
             
@@ -429,6 +439,11 @@ padding: 20px;
     font-size: .90rem;
     font-weight: 500;
     }
+    .card2-btn:hover{
+        background-color: rgb(0, 0, 0);
+        font-style: italic;
+        font-style: italic;
+    }
 .s-card-3{
     max-width: 290px;
     box-sizing: border-box;
@@ -454,6 +469,11 @@ padding: 20px;
     font-family: Raleway;
     font-size: .90rem;
     font-weight: 500;
+    }
+    .card3-btn:hover{
+        background-color:#f98f6f ;
+        color: #000003;
+        font-style: italic;
     }
 .s-card-4{
     max-width: 290px;
@@ -484,6 +504,7 @@ padding: 20px;
     .card4-btn:hover{
         background-color: #0606f7;
         color: #fff;
+        font-style: italic;
     }
 
 /* .right-btn{
@@ -515,10 +536,17 @@ margin-left: 20px;
     padding: 12px 50px;
     border-radius: 12px;
     color: white;
+    border: none;
     /* Black */
     margin-left: 100px;
     margin-top: 40px;
     background: rgb(17, 17, 17); 
+}
+.view-btn:hover{
+    background-color: #eaafee;
+    color: black;
+    font-style: italic;
+    border: 1px solid gray;
 }
 
 
@@ -780,8 +808,8 @@ letter-spacing: 0%;
         border-radius: 12px;
         color: white;
         /* Black */
-        margin-left: 30px;
-        margin-top: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
         background: rgb(17, 17, 17); 
     }
     .right-title{
